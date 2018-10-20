@@ -1,3 +1,2 @@
 python-nest
 python-forecastio
-python-dotenv

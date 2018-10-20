@@ -2,13 +2,9 @@ import datetime
 import os
 from collections import namedtuple
 
+import elasticsearch
 import forecastio
 import nest
-from dotenv import load_dotenv
-
-load_dotenv(os.getenv('APP_CONFIG'))
-
-import elasticsearch
 
 NEST_CLIENT_ID = os.getenv('NEST_CLIENT_ID')
 NEST_CLIENT_SECRET = os.getenv('NEST_CLIENT_SECRET')
